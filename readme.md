@@ -14,7 +14,7 @@ where things are headed.
 ## Building
 
 1. Set-up [Tiny C Compiler (TCC)](https://bellard.org/tcc/) and the `winapi` that ships alongside it.
-2. `git clone https://github.com/imshvc/start-all-back-trial-reset`
+2. `git clone https://github.com/imshvc/start-all-back-trial-reset --depth=1`
 3. `cd start-all-back-trial-reset`
 4. `make`
 
