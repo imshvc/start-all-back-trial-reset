@@ -2,7 +2,7 @@
 // Abstract: Utility to reset trial state of StartAllBack
 // License: Do whatever you want.
 // Created: 2024-08-01 02:28 PM
-// Updated: 2024-08-01 05:35 PM
+// Updated: 2024-08-12 10:32 AM
 
 // Steps the program takes:
 // ------------------------
@@ -182,6 +182,7 @@ void SABTR_TestKeys(HKEY hKey) {
         printf(" | WARN: Multiple subkeys match the criteria   |\n");
         printf(" | (first encountered subkey will be affected) |\n");
         printf(" +---------------------------------------------+\n\n");
+        g_subkeyWasWarned = TRUE;
         break;
       }
 
